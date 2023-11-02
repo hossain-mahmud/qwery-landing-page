@@ -245,13 +245,97 @@ body{
     overflow: hidden;
 }
 /* ----- culture css part start ------ */
-/* ===== holiyday css part start ===== */
-
-
-
-/* ----- discover css part start ------ */
-/* ===== holiyday css part start ===== */
-
-
-
-/* ----- discover css part start ------ */
+/* ===== footer css part start ===== */
+#footer{
+    padding-bottom: 30px;
+}
+.footer_logo_button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.footer_logo h2{
+    font-size: 48px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+.footer_button{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.footer_button p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+.footer_button a{
+    padding: 18px 67px;
+    background: #FFA343;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #000;
+    transition: all linear .3s;
+}
+.footer_button a:hover{
+    background: #fff;
+}
+.footer_left h2{
+    width: 376px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+.footer_left p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--open_sans);
+    color: #fff;
+    padding: 36px 0 48px 0;
+}
+.footer_icon ul{
+    display: flex;
+    gap: 30px;
+}
+.footer_icon ul li a{
+    font-size: 30px;
+    color: #fff;
+}
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 233px;
+}
+.menu_items ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.menu_items ul li a{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+.menu_items ul li .menu_active{
+    color: var(--primary_color);
+    font-weight: 700;
+}
+.copyright_text p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--open_sans);
+    color: #fff;
+    text-align: center;
+}
+/* ----- footer css part start ------ */
