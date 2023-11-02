@@ -136,11 +136,6 @@ body{
     color: #fff;
 }
 /* -----holiyday css part start ------ */
-/* ===== holiyday css part start ===== */
-
-
-
-/* ----- discover css part start ------ */
 /* ===== bromo css part start ===== */
 #bromo{
     padding-bottom: 295px;
@@ -200,11 +195,56 @@ body{
     color: #fff;
 }
 /* ----- bromo css part start ------ */
-/* ===== holiyday css part start ===== */
-
-
-
-/* ----- discover css part start ------ */
+/* ===== culture css part start ===== */
+#culture{
+    padding-bottom: 199px;
+}
+#culture .row{
+    align-items: center;
+}
+.culture_text h3{
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    text-transform: uppercase;
+}
+.culture_text h1{
+    width: 663px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #fff;
+    margin: 13px 0;
+    text-transform: uppercase;
+}
+.culture_text p{
+    width: 655px;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: var(--open_sans);
+    color: #fff;
+    text-transform: uppercase;
+}
+.culture_button a{
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.culture_button a:hover{
+    color: #fff;
+}
+.culture_image{
+    width: 550px;
+    overflow: hidden;
+}
+/* ----- culture css part start ------ */
 /* ===== holiyday css part start ===== */
 
 
