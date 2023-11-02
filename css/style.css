@@ -1,37 +1,217 @@
 /* ===== fonts link css part start ===== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 /* ----- fonts link css part start ------ */
 /* =====variables css part start ===== */
-:root{
-    --Poppins: 'Poppins', sans-serif;
+:root {
+    --open_sans: 'Open Sans', sans-serif;
+    --primary_color:#FFC178; 
 }
 
-
-
-
-
 /* -----variables css part start ------ */
-/* ===== fonts link css part start ===== */
+/* ===== common css part start ===== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+}
+/* ----- common css part start ------ */
+/* ===== main menu css part start ===== */
+.main_menu{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main_menu .navbar-brand{
+    font-size: 24px;
+    letter-spacing: 1%;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+/* ----- main menu css part start ------ */
+/* ===== discover css part start ===== */
+#discover{
+    background: url(../images/discover_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 462px 0;
+}
+.discover_head p{
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    margin-bottom: 37px;
+}
+.discover_head h1{
+    font-size: 96px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+.discover_head h2{
+    font-size: 88px;
+    font-weight: 400;
+    font-family: var(--open_sans);
+    color: #fff;
+}
+
+/* ----- discover css part start ------ */
+/* ===== holiyday css part start ===== */
+#holiday{
+    padding: 280px 0;
+}
+.holiday_image{
+    width: 583px;
+    overflow: hidden;
+}
+.holiday_text h3{
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    text-transform: uppercase;
+    margin: 38px 0 13px 0;
+}
+.holiday_text h1{
+    width: 495px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #fff;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.holiday_text p{
+    width: 587px;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: var(--open_sans);
+    color: #fff;
+    text-transform: uppercase;
+}
+.holiday_button a{
+    margin-top: 65px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.holiday_button a:hover{
+    color: #fff;
+}
+/* -----holiyday css part start ------ */
+/* ===== holiyday css part start ===== */
 
 
 
+/* ----- discover css part start ------ */
+/* ===== bromo css part start ===== */
+#bromo{
+    padding-bottom: 295px;
+}
+.bromo_part{
+    background: url(../images/bromo_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 560px 0 32px 0;
+}
+.bromo_text h3{
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.bromo_text h1{
+    width: 778px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: #fff;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.bromo_text p{
+    width: 893px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: var(--open_sans);
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.bromo_button{
+    text-align: center;
+}
+.bromo_button a{
+    margin-top: 26px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--open_sans);
+    color: var(--primary_color);
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.bromo_button a:hover{
+    color: #fff;
+}
+/* ----- bromo css part start ------ */
+/* ===== holiyday css part start ===== */
 
 
 
-/* ----- fonts link css part start ------ */
-/* ===== fonts link css part start ===== */
+/* ----- discover css part start ------ */
+/* ===== holiyday css part start ===== */
 
 
 
+/* ----- discover css part start ------ */
+/* ===== holiyday css part start ===== */
 
 
 
-/* ----- fonts link css part start ------ */
-/* ===== fonts link css part start ===== */
-
-
-
-
-
-
-/* ----- fonts link css part start ------ */
+/* ----- discover css part start ------ */
