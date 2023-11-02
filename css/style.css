@@ -49,6 +49,22 @@ body{
     top: 0;
     left: 0;
 }
+.main_menu ul{
+    gap: 60px;
+}
+.main_menu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--open_sans);
+    color: #fff !important;
+    transition: all linear .3s;
+}
+.main_menu ul li a:hover{
+    color: #000 !important;
+}
+.main_menu ul .active_home{
+    color: #000 !important;
+}
 .main_menu .navbar-brand{
     font-size: 24px;
     letter-spacing: 1%;
