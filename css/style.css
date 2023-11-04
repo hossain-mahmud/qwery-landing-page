@@ -43,6 +43,11 @@ body{
 }
 /* ----- common css part start ------ */
 /* ===== main menu css part start ===== */
+.fa-solid, .fas {
+	color: #fff;
+	font-size: 26px;
+	padding: 2px 3px;
+}
 .main_menu{
     width: 100%;
     position: absolute;
@@ -71,6 +76,33 @@ body{
     font-weight: 700;
     font-family: var(--open_sans);
     color: #fff;
+}
+.fixed_nav{
+    width: 100%;
+    background: #000;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: fixed_nav .5s linear;
+}
+@keyframes fixed_nav{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+
+
+
+.fixed_nav ul .active_home{
+    color: #fff !important;
+}
+.fixed_nav ul li a:hover{
+    color: var(--primary_color) !important;
 }
 /* ----- main menu css part start ------ */
 /* ===== discover css part start ===== */

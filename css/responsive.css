@@ -1,0 +1,69 @@
+/* ====== extra Small device responsive start ====== */
+@media (max-width: 574.98px) {
+    /* header part */
+    .main_menu .navbar-brand {
+        font-size: 22px;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 10px;
+    }
+    .main_menu {
+        background: #000;
+    }
+    .main_menu ul {
+        gap: 16px;
+        align-items: center;
+    }
+    .main_menu ul li a:hover{
+        color: #FFC178 !important;
+    }
+    .main_menu ul .active_home{
+        color: #fff !important;
+    }
+
+    /* discover part start */
+    #discover {
+        padding: 180px 0;
+    }
+    .discover_head p {
+        font-size: 17px;
+    }
+    .discover_head h1 {
+        font-size: 60px;
+    }
+    .discover_head h2 {
+        font-size: 45px;
+    }
+    /* holiday part start */
+    #holiday {
+        padding: 150px 0;
+    }
+    .holiday_image {
+        width: 100%;
+    }
+    .holiday_text h3 {
+        font-size: 17px;
+    }
+    .holiday_text h1 {
+        width: 100%;
+        font-size: 35px;
+    }
+    .holiday_text p {
+        width: 100%;
+    }
+    .holiday_button a {
+        margin-top: 30px;
+        font-size: 17px;
+    }
+
+
+
+
+    }
+    /* ------ extra Small device responsive end ------ */
+    /* ====== Small device responsive start ====== */
+    /* @media (min-width: 576px) and (max-width: 767.98px) {} */
+    /* ------ Small device responsive end ------ */
+    /* ====== medium device responsive start ====== */
+    /* @media (min-width: 768px) and (max-width: 991.98px) {} */
+    /* ------ medium device responsive end ------ */
