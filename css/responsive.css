@@ -188,9 +188,12 @@
     .navbar {
         --bs-navbar-padding-y: 14px;
     }
-    .fa-solid, .fas {
+
+    .fa-solid,
+    .fas {
         font-size: 31px
     }
+
     .main_menu {
         background: #000;
     }
@@ -365,6 +368,161 @@
 /* ====== medium device responsive start ====== */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    /* header part */
+    .navbar {
+        --bs-navbar-padding-y: 14px;
+    }
+
+    .fa-solid,
+    .fas {
+        font-size: 31px
+    }
+
+    .main_menu {
+        background: #000;
+    }
+
+    .main_menu ul {
+        gap: 16px;
+        align-items: center;
+    }
+
+    .main_menu ul li a:hover {
+        color: #FFC178 !important;
+    }
+
+    .main_menu ul .active_home {
+        color: #fff !important;
+    }
+
+    /* discover part start */
+    #discover {
+        padding: 210px 0;
+    }
+
+    .discover_head p {
+        font-size: 17px;
+    }
+
+    .discover_head h1 {
+        font-size: 85px;
+    }
+
+    .discover_head h2 {
+        font-size: 70px;
+    }
+
+    /* holiday part start */
+    #holiday {
+        padding: 150px 0;
+    }
+
+    .holiday_image {
+        width: 100%;
+    }
+
+    .holiday_text h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .holiday_text p {
+        width: 100%;
+    }
+
+    .holiday_button a {
+        margin-top: 30px;
+    }
+
+    /* bromo part start */
+    #bromo {
+        padding-bottom: 180px;
+    }
+
+    .bromo_part {
+        padding: 330px 0 32px 0;
+    }
+
+    .bromo_text h1 {
+        width: 100%;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .bromo_text p {
+        width: 100%;
+    }
+
+    /* culture part start */
+    #culture {
+        padding-bottom: 140px;
+    }
+
+    .culture_text h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .culture_text p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .culture_button a {
+        margin-bottom: 50px;
+    }
+
+    .culture_image {
+        width: 100%;
+    }
+
+    /* footer part start  */
+    #footer {
+        padding-bottom: 20px;
+    }
+
+    .footer_logo_button {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .footer_button {
+        justify-content: center;
+        gap: 17px;
+        flex-wrap: wrap;
+    }
+
+    .footer_logo h2 {
+        font-size: 35px;
+    }
+
+    .footer_button p {
+        font-size: 20px;
+    }
+
+    .footer_button a {
+        padding: 14px 33px;
+    }
+    .footer_left{
+        text-align: center;
+    }
+    .footer_left h2 {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .footer_left p {
+        padding: 19px 0;
+    }
+
+    .footer_icon ul {
+        justify-content: center;
+        margin: 15px 0;
+    }
+
+    .menu_items {
+        margin-bottom: 38px;
+    }
 }
 
 /* ------ medium device responsive end ------ */
